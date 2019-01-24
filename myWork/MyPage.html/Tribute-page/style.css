@@ -1,0 +1,27 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+body {text-align: center;
+  color: #f2f2f2;
+  box-align: center;
+  text-shadow: 2px 2px black;
+}
+body img {
+  width: 60%;
+  height: auto;
+}
+
+
+.background {
+  background: url(https://eu-central-1.tchyn.io/unitedbloggers-production/uploads/sites/184/2016/05/steve-jobs-walter-isaacson.jpg?quality=90) no-repeat center fixed;
+  background-size: cover;
+}
+
+ul{
+  display: grid;
+  text-align: left;
+  margin: center;
+  width: 800px;
+  grid-gap: 10px;
+}

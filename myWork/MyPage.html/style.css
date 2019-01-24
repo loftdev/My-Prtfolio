@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body {
+    margin: 0;
+}
+.grid {
+    background-color: rgb( 46, 46, 46);
+}
+
+/* anchor */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #d6d6d5;
+    text-decoration-style: none;
+}
+a:visited {
+    color: #d6d6d5;
+}
+a:hover {
+    color: #717171;
+}
+
+.highlight-box {
+    box-shadow: 0px 3px 50px 30px #8c8c8c;
+}
+.highlight-text {
+    color: #d6d6d5;
+    font-size: 27
+}
+.highlight-avatar {
+    width: 90%
+}
+.highlight-icon {
+    width: 60%;
+} 
+
+
+/* navbar */
+.navbar {
+    
+    align-items: center;
+    padding: 0;
+    background-color: #030303;
+}
+.mylogo {
+    font-family: 'Ruslan Display';
+    font-size: 25px;
+    text-align: center;
+    color: #d6d6d5;
+}
+.navbar ul {
+    text-align: center;
+}
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 5%;
+    font-family: 'Baloo Tammudu';
+    font-size: 20px;
+    color: rgb(171, 169, 169);
+    text-align: center;
+}
+
+/* header */
+.header {
+    background-image: url("https://lh3.googleusercontent.com/l1q94l3HtsVmwti0GWCEvP8cezaPQhQb-lWcZHwMwpIEFUTprslkemEOSOwEcLSy5733NGadUomh7Zir0etZtLM7NDJv8NQO7EsZa34UO5af865v9NGDx34OY0a6GPpPY85KDBPBztY=w2400");
+    background-size: 100% 100%;
+    font-family: 'Volkhov', serif;
+    text-shadow: -2px 0 #d6d6d5, 0 2px #d6d6d5, 2px 0 #d6d6d5, 0 -2px #d6d6d5;
+    padding: 10%;
+}
+.header h1 {
+    color: #030303;
+    text-align: center;
+    padding: 3%;
+    font-size: 45px;
+}
+.header p{
+    color: #030303;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* aboutme */
+.aboutme h3 {
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid black; 
+    border-radius: 10%;
+}
+.aboutme h1 {
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+    color: #d6d6d5;
+}
+.aboutme h3 {
+    color: #d6d6d5;
+    text-align: right;
+}
+.aboutme a {
+    color: #fafaf8;
+    text-decoration: underline;
+}
+
+/* myskills */
+.myskills {
+    background-color: rgb( 46, 46, 46);
+    padding: 7%;
+}
+.skillslist {
+    width: 20%
+}
+.myavatar {
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+.skills {
+    display: block;
+    text-align: center;
+    padding: 5%;
+}
+.skills img {
+    width: 50%;
+    height: auto;
+}
+.skills p {
+    color: #d6d6d5;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+}
+button {
+    color: #d6d6d5;
+    font-family: 'Baloo Tammudu';
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 0;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #1e180c;
+    box-shadow: 0px 3px 50px 10px #8c8c8c;
+}
+
+/* myworks */
+.myworks {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    background-color: rgb( 46, 46, 46);
+}
+.myworks h1 {
+    color: rgb(171, 169, 169);
+}
+.mywork-container {
+    padding: 5%;
+    margin: 3%;
+    text-align: center;
+    background-color: rgb(92, 92, 92);
+    border: 1px solid black; 
+    border-radius: 10%;
+    }
+    .mywork-container h3 {
+        color: #d6d6d5;
+    }
+.project-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+    margin: 3%;
+    } 
+    .box img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10%;
+    }
+/* contact */
+.contact {
+    font-family: 'Prompt', sans-serif;
+}
+.contact h1 {
+    color: #d6d6d5;
+    padding: 35%;
+    margin: 0;
+    background-color: rgb( 46, 46, 46);
+    text-align: center;
+}
+
+.contact-details {
+    background-color: rgb(92, 92, 92);
+    text-align: center;
+    border: 1px solid black;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10%;
+}
+.contact-linkedin a {
+    text-decoration: underline;
+}
+.contact-linkedin a:link {
+    color: #d6d6d5;
+}
+.contact-linkedin a:visited {
+    color: #d6d6d5;
+}
+.contact-icon {
+    width: 10%;
+    height: auto;
+}
+.contact-email, .contact-linkedin {
+    padding: 7%;
+}
+.contact img, .contact p {
+    display: inline;
+}
+.contact p {
+    color: #d6d6d5;
+    padding: 5%;
+}
+
+/* footer */
+.footer {
+    background-color: #030303;
+    color: #d6d6d5;
+}
+.footer1 {
+    text-align: center;
+}
+.footer1 p {
+    display: initial;
+    padding: 3%;
+}
+.footer2 {
+    text-align: center;
+}
+.footer a {
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-rows: 7% 1fr 20% 1fr 1fr 20% 15%;
+    }
+    .navbar {
+        grid-row: 1 / 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+        .navbar .mylogo {
+            grid-column: 1 / 2;
+        }
+        .navbar ul {
+            grid-column: 2 / 3;
+            margin: 0;
+            padding: 0; 
+        }
+        .navbar li {
+            display: block;
+            margin: 0%;
+            padding: 1%;
+        }
+    .header {
+        grid-row: 2 / 3;
+        background-size: auto 100%;
+    }
+    .myskills {
+        grid-row: 3 / 4;
+        position: relative;
+    }
+        .myavatar {
+            text-align: center;
+            width: 80%;
+        }
+        .skillslist {
+            position: absolute;
+            top: 10%;
+            right: 2%;
+        } 
+        .skills img {
+            display: inline-block;
+            width: 50%;
+            height: auto;
+            text-align: center;
+        }
+        .skills p {
+            display: none;
+        }
+        .myskills-btn {
+            position: absolute;
+            top: 75%;
+            left: 20%;
+        }
+    .aboutme {
+        grid-row: 4 / 5;
+    }
+    .aboutme h1 {
+        padding: 0;
+        margin: 0;
+    }
+    .myworks {
+        grid-row: 5 / 6;
+    }
+    .project-container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px 10px;
+    }
+        .box {
+            width: 100%;
+            height: auto;
+        }
+    .contact {
+        grid-row: 6 / 7;
+    }
+    .contact h1 {
+        padding: 0;
+        margin: 0;
+    }
+    .footer {
+        grid-row: 7 / 8;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .grid {
+    display: grid;
+    grid-template-rows: 200px 3fr 3fr 3fr 2fr 100px;
+    grid-template-columns: repeat(6, 1fr);
+    }
+    .navbar {
+        grid-area: 1 / 1 / 2 / span6;
+    }
+    .header {
+        grid-area: 2 / 1 / 3 / span6;
+    }
+    .aboutme {
+        grid-area: 3 / 1 / 4 / 4;
+    }
+    .myskills {
+        grid-area: 3 / 4 / 4 / 7;
+        position: relative;
+        padding: 0;
+        }
+        .myavatar {
+            display: block;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .skills img {
+            width: 50%;
+        }
+        .skills-category1 {
+            position: absolute;
+            top: 15%;
+            left: 6;
+            width: 20%;
+            
+        }
+        .skills-category2 {
+            position: absolute;
+            top: 15%;
+            right: 0;
+            width: 20%;
+        }
+        button {
+            position: absolute;
+            top: 80%;
+            left: 43%;
+        }
+    .myworks {
+        grid-area: 4 / 1 / 5 / span6;
+    }
+    .contact {
+        grid-area: 5 / 1 / 6 / span6;
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+        .contact h1 {
+            grid-column: 1 / 2;
+        }
+        .contact-details {
+            grid-column: 2 / 3;
+        } 
+    .footer {
+        grid-area: 6 / 1 / 7 / span6;
+    }
+    
+}
+
+
+
+
+
+
