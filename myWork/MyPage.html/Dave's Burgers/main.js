@@ -1,12 +1,13 @@
 $(document).ready(function () {
 
+    /*
     $('.nav-contents').on('mouseleave', event => {
         $(event.currentTarget).toggle();
     });
+    */
 
     $('.menu-nav').click(function () {
         $('.menu').toggle();
-        $('.nav-contents').toggle();
     });
 
     $('.nutrition-nav').click(function () {
