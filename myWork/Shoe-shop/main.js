@@ -2,10 +2,16 @@ $(document).ready(function () {
 
     $('.menu-button').click(function () {
         $('.nav-menu').toggle();
+        $('.nav-menu').on('mouseleave', function() {
+            $('.nav-menu').hide();
+        })
     });
    
     $('.login-button').click(function () {
         $('.login-form').toggle();
+        $('.login-form').on('mouseleave', function () {
+            $('.login-form').hide();
+        })
     });
 
     $('.product-photo').on('mouseenter', event => {
