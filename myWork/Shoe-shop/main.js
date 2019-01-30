@@ -24,10 +24,4 @@ $(document).ready(function () {
         $(event.currentTarget).parent().parent().next().toggle();
     });
 
-    $('.sizes li').on('mouseenter', event => {
-        $(event.currentTarget).addClass('highlight-text');
-    }).on('mouseleave', event => {
-        $(event.currentTarget).removeClass('highlight-text');
-    });
-
 });
